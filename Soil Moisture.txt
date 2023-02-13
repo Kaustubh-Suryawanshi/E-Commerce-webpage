@@ -1,0 +1,15 @@
+Abstract:
+	Because water is an important resource and not all communities around the world can afford to
+be liberal with their water needs; it has become important to use available water as efficiently as
+possible, especially in agriculture. For the purpose of reducing the overwatering of crops, an
+unattended ground moisture sensor can be implemented to measure the current moisture level in
+the soil surrounding the plants. This will allow a farmer to know when to water/stop watering
+his crop. For convenience, the moisture data information should be transmitted wirelessly to the
+user. The design of an unattended ground moisture sensor and wireless communication/user
+interface system is discussed. The sensor design consists of a Wheatstone bridge for determining
+the resistance of the soil, followed by a differential amplifier for converting the measured
+resistance into a voltage. This is done because there exists a correlation between moisture and
+resistance. This voltage is interpreted by a microcontroller as moisture data and sent wirelessly to
+a Lora communication receiving node by a Lora communication transmitting node. The
+receiving node then relays that information to a PC host for access by the user. The system has a
+power circuit that consists of a battery and a linear regulator.
