@@ -7,3 +7,8 @@ if(bar)
         nav.classList.add('active');
     })
 }
+
+let add=document.getElementById("addtocart");
+add.addEventListener('click', ()=>{
+    
+})
